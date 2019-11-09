@@ -1,6 +1,6 @@
 
-Clover EFI installer log - Tue Sep 24 10:02:35 WIB 2019
-Installer version: v2.5k r5090 EFI bootloader
+Clover EFI installer log - Mon Nov  4 01:14:12 WIB 2019
+Installer version: v2.5k r5097 EFI bootloader
 ======================================================
 /dev/disk0 (internal):
    #:                       TYPE NAME                    SIZE       IDENTIFIER
@@ -12,32 +12,26 @@ Installer version: v2.5k r5090 EFI bootloader
    #:                       TYPE NAME                    SIZE       IDENTIFIER
    0:      APFS Container Scheme -                      +500.0 GB   disk1
                                  Physical Store disk0s2
-   1:                APFS Volume Macintosh HD            164.0 GB   disk1s1
-   2:                APFS Volume Preboot                 46.0 MB    disk1s2
+   1:                APFS Volume Macintosh HD            241.3 GB   disk1s1
+   2:                APFS Volume Preboot                 45.0 MB    disk1s2
    3:                APFS Volume Recovery                510.4 MB   disk1s3
-   4:                APFS Volume VM                      5.4 GB     disk1s4
+   4:                APFS Volume VM                      8.6 GB     disk1s4
 
 /dev/disk2 (external, physical):
    #:                       TYPE NAME                    SIZE       IDENTIFIER
    0:      GUID_partition_scheme                        *15.5 GB    disk2
    1:                        EFI EFI                     209.7 MB   disk2s1
-   2:                  Apple_HFS Install macOS Mojave    15.2 GB    disk2s2
-
-/dev/disk4 (disk image):
-   #:                       TYPE NAME                    SIZE       IDENTIFIER
-   0:      GUID_partition_scheme                        +7.3 GB     disk4
-   1:                        EFI EFI                     209.7 MB   disk4s1
-   2:                  Apple_HFS InstallESD              7.0 GB     disk4s2
+   2:                  Apple_HFS Install macOS Catalina  15.1 GB    disk2s2
 
 ======================================================
 Backing up EFI files
 
-Backing up /Volumes/Install macOS Mojave/EFIROOTDIR/EFI folder to /Volumes/Install macOS Mojave/EFI-Backups/r5090/2019-09-24-10h02/EFI
+Backing up /Volumes/Install macOS Catalina/EFIROOTDIR/EFI folder to /Volumes/Install macOS Catalina/EFI-Backups/r5090/2019-11-04-01h14/EFI
 ======================================================
 Installing BootSectors/BootLoader
 
-Stage 0 - Don't write any of boot0af, boot0md, boot0ss to /Volumes/Install macOS Mojave
-Stage 1 - Don't write any of boot1h2, boot1f32alt, boot1xalt to /Volumes/Install macOS Mojave
+Stage 0 - Don't write any of boot0af, boot0md, boot0ss to /Volumes/Install macOS Catalina
+Stage 1 - Don't write any of boot1h2, boot1f32alt, boot1xalt to /Volumes/Install macOS Catalina
 
 ======================================================
 =========== Clover EFI Installation Finish ===========
