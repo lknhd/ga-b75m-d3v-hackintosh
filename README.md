@@ -9,3 +9,5 @@ My EFI folder of hackintosh mojave for my old computer build with specs:
 
 
 ![screenshot](https://raw.githubusercontent.com/lukmanulhakimd/ga-b75m-d3v-hackintosh/master/Screen%20Shot%202019-10-05%20at%2011.41.54.png "Screenshot")
+
+PS: updated for catalina
